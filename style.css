@@ -5,6 +5,7 @@ body {
 	padding: 150px;
 	max-width: 100%;
 	min-width:min-content;
+	
 }
 
 h1 {
@@ -23,10 +24,9 @@ h2 {
 	color: blanchedalmond;
 	border-top: 1px solid #ccc;
 	border-bottom: 3px solid rgb(143, 235, 39);
-	;
 	background-color: #1a1a1a;
 	padding-left: 5px;
-	margin: 0 0 0 -15px;
+	margin: 0 -10px 0 -40px;
 	font-weight: normal;
 }
 
@@ -172,4 +172,6 @@ a:hover {
 	margin-right: 1%;
 	margin-left: 2%;
 }
+
+
 

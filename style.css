@@ -181,8 +181,9 @@ a:hover {
 @media screen and (max-width: 600px) {
 	body
 	{
+		display:table-cell;
 		text-decoration: inherit;
-		width: 90%;
+		width: 120%;
 		color: antiquewhite;
 		
 	}
@@ -191,6 +192,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 	.secao
 	{
+		
 		padding: 70px;
 		width: 100%;
 		padding-left: 8px;
@@ -201,7 +203,8 @@ a:hover {
 @media screen and (max-width: 600px) {
 	.page-home
 	{
-		width: 100%;
+		min-width: 320px;
+		width: 120%;
 	}
 }
 
@@ -227,9 +230,10 @@ a:hover {
 
    h5
    {
+	   
 	text-align: center;
 	border-top: 3px solid rgb(143, 235, 39);
-	width: 120%;
+	width: 112.5%;
    }
 
    h3 

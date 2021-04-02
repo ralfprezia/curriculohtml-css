@@ -52,6 +52,7 @@ h5 {
 label {
 	font-weight: bold;
 	margin-right: 10px;
+	
 }
 
 label:after {
@@ -82,10 +83,11 @@ a:hover {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	color: rgb(143, 235, 39);
 }
 
 #menu .ativo {
-	background-color: #ddd;
+	background-color: rgb(143, 235, 39);
 }
 
 .vcard {

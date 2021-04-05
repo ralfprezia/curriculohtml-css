@@ -8,17 +8,17 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	
-	<body>
+	<body onload="load()">
         <div class= "page-home">
 		    <h1>Curriculum Vitae</h1>
 		    <div class="secao">	
                         <div id="hcard-ralf-franco-prezia-carneiro" class="vcard">
                             <details>
-                                    <summary style="border-bottom: chartreuse;"><b>Ralf Franco Prezia Carneiro</b></summary>
+                                    <summary id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)" style="border-bottom: chartreuse;">Ralf Franco Prezia Carneiro</summary>
                                     <div> 
-                                        <h4>Data de nascimento: 08/07/1983<br>Idade: 37 anos.</h4></div>
+                                        <h4>Nome Completo: Ralf Franco Prezia Carneiro<br>Data de nascimento: 08/07/1983<br>Idade: 37 anos.</h4></div>
                                     <details>
-                                        <summary><b>Foto com breve descrição:</b></summary> 
+                                        <summary><b>Breve descrição com foto:</b></summary> 
                                         <section>
                                             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHIhoY-bm_Qhw/profile-displayphoto-shrink_200_200/0/1583608700334?e=1618444800&v=beta&t=i7vrTCbhqgFVVkJzyUSO-kFCQUIUQtbfNi7llZAhgO0" alt="photo of Ralf" class="photo"/>
                                             <h3> Olá,seja bem vindo(a).</h3>
@@ -117,6 +117,7 @@
                                                         </section>
                                                     </details><br>
                             </details></span> 
+                            
                         </div>
             </div> 
             <h5>Procuro fazer a vida sempre mais "Responsiva".</h5> 

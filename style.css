@@ -98,7 +98,8 @@ a:hover {
 	display: block;
 }
 
-.photo {
+.photoRalf {
+	max-width: 40px;
 	float:left;
     margin-top: 0%;
 	margin-right: 3%;

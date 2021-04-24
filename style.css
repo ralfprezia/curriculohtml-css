@@ -2,51 +2,62 @@
 
 body {
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	color: #3b3b3b;
+	color: whitesmoke;
     background-color:#282A36;
 	padding: 5%;
 	max-width: 100%;
 	
+	
+	
+}
+.nomeInicio {
+	font-style:#282A36;;
 }
 
 
 h1 {
+	border-top: 3px solid #04d362;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 }
 
 h1 {
 	border-bottom: 3px solid #04d362;
+	border-top: 3px solid #04d362;
 	background-color: #1a1a1a;
-	color: #ddd;
+	color: whitesmoke;
 	padding: 5px;
 	max-width:none;
 }
 
 h2 {
-	color: blanchedalmond;
+	color: whitesmoke;
 	border-top: 1px solid #ccc; 
+	border-top: 3px solid #04d362;
 	border-bottom: 3px solid #04d362;
 	background-color: #1a1a1a;
 	padding-left: 5px;
+	padding: 0px 0px 3px 0px;
 	margin: 0 -10px 0 -40px;
 	font-weight: normal;
+	text-align: center;
+	
 }
 
 h5 {
+	border-top: 3px solid #04d362;
 	border-bottom: 3px solid #04d362;
 	background-color: #1a1a1a;
-	color: #ddd;
+	color: whitesmoke;
 	padding: 15px;
 	text-align: center;
+	font-size: 19px;
 }
 
 .secao 
 {
-	background-color: rgb(250, 250, 250);
+	background-color: #383A59;
 	padding-left: 15px;
-	
-	
 }
 
 label {
@@ -61,12 +72,12 @@ label:after {
 
 a {
 	text-decoration:none;
-	color: rgb(95, 51, 255);
+	color: #74CAD0;
 }
 
 a:visited {
 	text-decoration:none;
-	color: rgb(95, 51, 255);
+	color: #74CAD0;
 }
 
 a:hover {
@@ -110,49 +121,97 @@ a:hover {
 	max-width: 40px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photojs {
 	max-width: 43px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photohtml {
 	max-width: 43px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photocss {
 	max-width: 30.7px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photosql {
 	max-width: 40px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photogit {
 	max-width: 40px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photonet {
 	max-width: 48px;
 	margin-right: 1%;
 	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photoc {
 	
 	max-width: 52px;
-	
-	
+	padding-bottom: 1%;
+}
+
+.photoReact {
+	max-width: 48px;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding-bottom: 1%;
+}
+
+.photoNode {
+	max-width: 48px;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding-bottom: 1%;
+}
+
+.photoSass {
+	max-width: 48px;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding-bottom: 1%;
+}
+
+.photoTypescript {
+	max-width: 48px;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding-bottom: 1%;
+}
+
+.photoJquery {
+	max-width: 48px;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding-bottom: 1%;
+}
+
+.photoES6{
+	max-width: 48px;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding-bottom: 1%;
 }
 
 .photoemail {
@@ -179,57 +238,58 @@ a:hover {
 	margin-left: 2%;
 }
 
-@media screen and (max-width: 600px) {
-	body
-	{
-		display:table-cell;
-		text-decoration: inherit;
-		width: 120%;
-		color: antiquewhite;
-		
-	}
+.links {
+	text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
+	body
+	{
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		color: gray;
+    	background-color:#282A36;
+		padding: 5%;
+		max-width: 100%;
+		
+		
+	}
+	
+
 	.secao
 	{
 		
 		padding: 70px;
 		width: 100%;
 		padding-left: 8px;
-		background-color:rgb(0, 0, 0);
+		background-color:#282A36;
+		padding: 5%;
 	}
-}
 
-@media screen and (max-width: 600px) {
 	.page-home
 	{
 		min-width: 320px;
 		width: 120%;
 	}
-}
 
-@media screen and (max-width: 600px) {
-	 h1
+	h1
 	{
 		text-align: center;
 		border-top: 3px solid #04d362;
 		padding-right:inherit;
 		width:130%;
 	}
-}
-@media screen and (max-width: 600px) {
+
 	h2
-   {
+	{
 		text-align: center;
 		border-top: 3px solid #04d362;
 		padding-right:inherit;
-	   	width: 122%;
-		color:white;
+		width: 122%;
+		color:gray
+ 
+	}
 
-   }
-
-   h5
+	h5
    {
 	font-size: 15px;  
 	text-align: center;
@@ -241,7 +301,7 @@ a:hover {
    h3 
    {
 	   text-align:start;
-	   color: white;
+	   color: gray;
    }
 
    
@@ -251,6 +311,25 @@ a:hover {
 	padding: 10px;
 	
    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+	 
+}
+@media screen and (max-width: 600px) {
+
+
+   
    
 }
 

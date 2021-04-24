@@ -1,4 +1,4 @@
-var d = new Date();
+/*var d = new Date();
 alert("Olá tudo bem com você?\nSinta-se em casa.\n\nMeu nome é Ralf Prézia.\nMuito obrigado por acessar o meu currículo.\n\n " + d);
 
 function trocar(elemento)
@@ -18,4 +18,4 @@ function voltar(elemento)
 function clicou(elemento)
 {
     window. history. back();
-}
+}*/

@@ -241,7 +241,7 @@ a:hover {
 	text-align: center;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 380px) {
 	body
 	{
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -312,7 +312,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 379px) {
 	
 
 	body {
@@ -320,7 +320,7 @@ a:hover {
 		color: whitesmoke;
 		background-color:#282A36;
 		padding: 5%;
-		max-width: 80%;
+		max-width: 90%;
 	}
 	.nomeInicio {
 		font-style:#282A36;;
@@ -330,7 +330,7 @@ a:hover {
 	h1 {
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		font-size: 15px;
-		text-align: left;
+		text-align: center;
 		border-bottom: 3px solid #04d362;
 		border-top: 3px solid #04d362;
 		background-color: #282A36;;
@@ -349,10 +349,6 @@ a:hover {
 		border-bottom:unset;
 		border-top: none;
 		background-color: #383A59;
-
-
-		
-		
 	}
 
 	h3 {
@@ -370,8 +366,7 @@ a:hover {
 		border-bottom: 3px solid #04d362;
 		background-color: #282A36;
 		color: whitesmoke;
-		padding: 15px;
-		text-align:left;
+		text-align:center;
 		font-size: 10px;
 		max-width: 80%;
 	}
@@ -571,6 +566,14 @@ a:hover {
 	
 
 }
+
+
+
+
+
+
+
+
 
 
 

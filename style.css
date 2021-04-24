@@ -1,5 +1,4 @@
 
-
 body {
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	color: whitesmoke;
@@ -24,10 +23,10 @@ h1 {
 h1 {
 	border-bottom: 3px solid #04d362;
 	border-top: 3px solid #04d362;
-	background-color: #1a1a1a;
+	background-color: #282A36;
 	color: whitesmoke;
 	padding: 5px;
-	max-width:none;
+	max-width:100%;
 }
 
 h2 {
@@ -35,7 +34,7 @@ h2 {
 	border-top: 1px solid #ccc; 
 	border-top: 3px solid #04d362;
 	border-bottom: 3px solid #04d362;
-	background-color: #1a1a1a;
+	background-color: #282A36;
 	padding-left: 5px;
 	padding: 0px 0px 3px 0px;
 	margin: 0 -10px 0 -40px;
@@ -47,7 +46,7 @@ h2 {
 h5 {
 	border-top: 3px solid #04d362;
 	border-bottom: 3px solid #04d362;
-	background-color: #1a1a1a;
+	background-color: #282A36;
 	color: whitesmoke;
 	padding: 15px;
 	text-align: center;
@@ -249,9 +248,7 @@ a:hover {
 		color: gray;
     	background-color:#282A36;
 		padding: 5%;
-		max-width: 100%;
-		
-		
+		max-width: 100%;		
 	}
 	
 
@@ -315,23 +312,274 @@ a:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 360px) {
 	
-}
 
-@media screen and (max-width: 600px) {
+	body {
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		color: whitesmoke;
+		background-color:#282A36;
+		padding: 5%;
+		max-width: 80%;
+	}
+	.nomeInicio {
+		font-style:#282A36;;
+	}
 	
+	
+	h1 {
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15px;
+		text-align: left;
+		border-bottom: 3px solid #04d362;
+		border-top: 3px solid #04d362;
+		background-color: #282A36;;
+		color: whitesmoke;
+		max-width: 88%;
+		
+	}
+	
+	h2 {
+		
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15px;
+		color: whitesmoke;
+		text-align: left;
+		padding-left: 5px;
+		border-bottom:unset;
+		border-top: none;
+		background-color: #383A59;
+
+
+		
+		
+	}
+
+	h3 {
+		color: whitesmoke;
+		font-size: 12px;
+		text-align: justify;
+	}
+
+	h4 {
+		font-size: 10px;
+	}
+	
+	h5 {
+		border-top: 3px solid #04d362;
+		border-bottom: 3px solid #04d362;
+		background-color: #282A36;
+		color: whitesmoke;
+		padding: 15px;
+		text-align:left;
+		font-size: 10px;
+		max-width: 80%;
+	}
+	p {
+		font-size: 8px;
+	}
+	
+	.secao 
+	{
+		max-width: 80%;
+		background-color: #383A59;
+		padding-left: 15px;
+	}
+	
+	label {
+		font-weight: bold;
+		margin-right: 10px;
+		
+	}
+	
+	label:after {
+		content: ":";
+	}
+	
+	a {
+		text-decoration:none;
+		color: #74CAD0;
+	}
+	
+	a:visited {
+		text-decoration:none;
+		color: #74CAD0;
+	}
+	
+	a:hover {
+		text-decoration:none;
+		color: #04d362;
+	}
+	
+	#menu {
+		margin: 0;
+	}
+	
+	#menu ul, #menu li {
+		display: inline;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		color: #04d362;
+	}
+	
+	#menu .ativo {
+		background-color: #04d362;
+	}
+	
+	.vcard {
+		padding: 10px;
+	}
+	
+	.url, .email {
+		display: block;
+	}
+	
+	.photoRalf {
+		max-width: 170px;
+		float:inherit;
+		margin: 15px;
+		margin-left: 57px;
+		
+		
+	}
+	
+	.photocsharp {
+		max-width: 40px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photojs {
+		max-width: 43px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photohtml {
+		max-width: 43px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photocss {
+		max-width: 30.7px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photosql {
+		max-width: 40px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photogit {
+		max-width: 40px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photonet {
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoc {
+		
+		max-width: 52px;
+		padding-bottom: 1%;
+	}
+	
+	.photoReact {
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoNode {
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoSass {
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoTypescript {
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoJquery {
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoES6{
+		max-width: 48px;
+		margin-right: 1%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+	}
+	
+	.photoemail {
+	
+		max-width: 25px;
+		margin-top: 1%;
+		margin-right: 1%;
+		margin-left: 2%;
+	}
+	
+	.photowhatsapp {
+	
+		max-width: 25px;
+		margin-top: 2%;
+		margin-right: 1%;
+		margin-left: 2%;
+	}
+	
+	.photolinkedin {
+	
+		max-width: 18px;
+		margin-top: 1%;
+		margin-right: 1%;
+		margin-left: 2%;
+	}
+	
+	.links {
+		text-align: center;
+	}
+	
+
 }
 
-@media screen and (max-width: 600px) {
-	 
-}
-@media screen and (max-width: 600px) {
 
 
-   
-   
-}
+
+
+
+
+
+
 
 
 

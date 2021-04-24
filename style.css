@@ -48,9 +48,10 @@ h5 {
 	border-bottom: 3px solid #04d362;
 	background-color: #282A36;
 	color: whitesmoke;
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 	font-size: 19px;
+	margin-top: 20px;
 }
 
 .secao 
@@ -566,6 +567,14 @@ a:hover {
 	
 
 }
+
+
+
+
+
+
+
+
 
 
 

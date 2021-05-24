@@ -1,12 +1,10 @@
 body {
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	color: whitesmoke;
+	font-size: 25px;
+	color: rgb(238, 237, 237);
     background-color:#282A36;
 	padding: 5%;
 	max-width: 100%;
-	
-	
-	
 }
 .nomeInicio {
 	font-style:#282A36;;
@@ -23,14 +21,14 @@ h1 {
 	border-bottom: 3px solid #04d362;
 	border-top: 3px solid #04d362;
 	background-color: #282A36;
-	color: whitesmoke;
+	color: rgb(238, 237, 237);
 	padding: 5px;
 	max-width:100%;
 }
 
 h2 {
 	color: whitesmoke;
-	border-top: 1px solid #ccc; 
+	border-top: 1px solid rgb(238, 237, 237); 
 	border-top: 3px solid #04d362;
 	border-bottom: 3px solid #04d362;
 	background-color: #282A36;
@@ -62,6 +60,7 @@ h5:hover {
 {
 	background-color: #383A59;
 	padding-left: 15px;
+	border-radius: 15px;
 }
 
 label {
@@ -122,49 +121,49 @@ a:hover {
 }
 
 .photocsharp {
-	max-width: 40px;
+	max-width: 53px;
 	margin-right: 1%;
-	margin-left: 2%;
+	margin:0px 0px 0px 115px;
 	padding-bottom: 1%;
 }
 
 .photojs {
-	max-width: 43px;
+	max-width: 50px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1%;
 }
 
 .photohtml {
-	max-width: 43px;
+	max-width: 55px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1%;
 }
 
 .photocss {
-	max-width: 45.7px;
+	max-width: 54.5px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1%;
 }
 
 .photosql {
-	max-width: 40px;
+	max-width: 54px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1%;
 }
 
 .photogit {
-	max-width: 40px;
+	max-width: 56px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1%;
 }
 
 .photonet {
-	max-width: 48px;
+	max-width: 65px;
 	margin-right: 2.5%;
 	margin-left: 2.5%;
 	padding-bottom: 1%;
@@ -172,47 +171,47 @@ a:hover {
 
 .photoc {
 	
-	max-width: 51px;
+	max-width: 65px;
 	padding-bottom: 1%;
 }
 
 .photoReact {
-	max-width: 48px;
+	max-width: 58px;
 	margin-right: 1%;
 	margin-left: 2.5%;
 	padding-bottom: 1.2%;
 }
 
 .photoNode {
-	max-width: 48px;
+	max-width: 58px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1.2%;
 }
 
 .photoSass {
-	max-width: 48px;
+	max-width: 58px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1.5%;
 }
 
 .photoTypescript {
-	max-width: 48px;
+	max-width: 58px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1.2%;
 }
 
 .photoJquery {
-	max-width: 48px;
+	max-width: 58px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1.15%;
 }
 
 .photoES6{
-	max-width: 48px;
+	max-width: 65px;
 	margin-right: 1%;
 	margin-left: 2%;
 	padding-bottom: 1%;
@@ -325,7 +324,7 @@ a:hover {
 
 	body {
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
-		color: whitesmoke;
+		color: rgb(238, 237, 237);
 		background-color:#282A36;
 		padding: 5%;
 		max-width: 90%;
@@ -351,7 +350,7 @@ a:hover {
 		
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		font-size: 15px;
-		color: whitesmoke;
+		color: rgb(238, 237, 237);
 		text-align: left;
 		padding-left: 5px;
 		border-bottom:unset;
@@ -360,7 +359,7 @@ a:hover {
 	}
 
 	h3 {
-		color: whitesmoke;
+		color: rgb(238, 237, 237);
 		font-size: 16px;
 		text-align: justify;
 	}
@@ -572,14 +571,4 @@ a:hover {
 	.links {
 		text-align: center;
 	}
-	
-
 }
-
-
-
-
-
-
-
-

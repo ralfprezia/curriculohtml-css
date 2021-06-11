@@ -1,26 +1,24 @@
+
 body {
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 25px;
-	color: rgb(238, 237, 237);
-    background-color:#282A36;
+	color: #999694;
+    background-color:#e46c0ac7;
 	padding: 5%;
 	max-width: 100%;
-}
-.nomeInicio {
-	font-style:#282A36;;
 }
 
 
 h1 {
-	border-top: 3px solid #04d362;
+	border-top: 3px solid #fff;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 }
 
 h1 {
-	border-bottom: 3px solid #04d362;
-	border-top: 3px solid #04d362;
-	background-color: #282A36;
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+	background-color: #F14E03;
 	color: rgb(238, 237, 237);
 	padding: 5px;
 	max-width:100%;
@@ -29,9 +27,9 @@ h1 {
 h2 {
 	color: whitesmoke;
 	border-top: 1px solid rgb(238, 237, 237); 
-	border-top: 3px solid #04d362;
-	border-bottom: 3px solid #04d362;
-	background-color: #282A36;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background-color: #F14E03;
 	padding-left: 5px;
 	padding: 0px 0px 3px 0px;
 	margin: 0 -10px 0 -40px;
@@ -41,9 +39,9 @@ h2 {
 }
 
 h5 {
-	border-top: 3px solid #04d362;
-	border-bottom: 3px solid #04d362;
-	background-color: #282A36;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background-color: #F14E03;
 	color: whitesmoke;
 	padding: 10px;
 	text-align: center;
@@ -53,12 +51,12 @@ h5 {
 	transition: 0.3s;
 }
 h5:hover {
-	color: #5dda95;
+	color: #fff;
 }
 
 .secao 
 {
-	background-color: #383A59;
+	background-color: #fff;
 	padding-left: 15px;
 	border-radius: 15px;
 }
@@ -75,17 +73,17 @@ label:after {
 
 a {
 	text-decoration:none;
-	color: #74CAD0;
+	color: #999694;
 }
 
 a:visited {
 	text-decoration:none;
-	color: #74CAD0;
+	color: #999694;
 }
 
 a:hover {
 	text-decoration:none;
-	color: #04d362;
+	color: #F14E03;
 }
 
 #menu {
@@ -106,6 +104,7 @@ a:hover {
 
 .vcard {
 	padding: 10px;
+	color: #999694;
 }
 
 .url, .email {
